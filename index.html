@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Simon Dice</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+</head>
+<body>
+    <div class="info">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="alert alert-primary role="alert" id="estado"></div>
+            </div>
+            <div class="col-sm-2">
+                <p>Ronda # <strong id="ronda">0</strong></p>
+            </div>
+                <div class="col-sm-2">
+                <button type="button" class="btn btn-primary">Empezar</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div id="cuadro-1" class="cuadro"><strong>A</strong></div>
+            </div>
+            <div class="col-sm">
+                <div id="cuadro-2" class="cuadro"><strong>B</strong></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div id="cuadro-3" class="cuadro"><strong>C</strong></div>
+            </div>
+            <div class="col-sm">
+                <div id="cuadro-4" class="cuadro"><strong>D</strong></div>
+            </div>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>

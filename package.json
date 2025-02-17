@@ -1,0 +1,15 @@
+{
+  "name": "simon-dice",
+  "version": "1.0.0",
+  "description": "juego de Simon Dice",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

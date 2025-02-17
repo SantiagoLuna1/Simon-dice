@@ -1,0 +1,47 @@
+body {
+    background-color: #f9f6f2; /* Beige claro */
+    min-height: 100vh; /* Asegura que el body ocupe todo el alto de la ventana */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+.info {
+    width: 80%;      
+    padding: 20px;
+    margin: 0 auto; 
+} 
+
+.cuadro {
+    display: flex;
+    height: 200px;
+    opacity: 0.5;
+    transition: opacity 500ms, box-shadow 300ms, transform 300ms;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    border-radius: 10px;     /* Bordes redondeados */
+    padding: 10px;           /* Espacio interno */
+    color: #f9f6f2;            /* Color de la letra */
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.4); /* Sombra */
+    text-shadow: 6px 6px 15px rgba(0, 0, 0, 0.8);
+}
+
+#cuadro-1 {
+    background-color: red;
+}
+
+#cuadro-2 {
+    background-color: blue;
+}
+
+#cuadro-3 {
+    background-color: yellow;
+}
+
+#cuadro-4 {
+    background-color: green;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Es la separación */
+}
